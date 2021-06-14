@@ -6,23 +6,19 @@ window.addEventListener('load', (event) => {
     let player2CardsHtml  = '';
     console.log(document.getElementById('player1Cards'))
     console.log(document.getElementById('player2Cards'))
-    console.log(triadGame.cards)
     triadGame.cards.forEach((pic) => {
         player1CardsHtml += `
-          <div class="card" ="${pic.name}">
-            <div class="back" name="${pic.img}"></div>
+            <div class="card">
             <div class="front" style="background: url(img/${pic.img}) no-repeat"></div>
-          </div>
-        `;
+            </div>`;
+        triadGame.player1Cards.push(pic)
+        
         player2CardsHtml += `
-          <div class="card" ="${pic.name}">
-            <div class="back" name="${pic.img}"></div>
+            <div class="card">
             <div class="front" style="background: url(img/${pic.img}) no-repeat"></div>
-          </div>
-        `;
-
-      });
-
+            </div>`;
+        triadGame.player2Cards.push(pic)
+    });
     document.getElementById('player1Cards').innerHTML = player1CardsHtml;
     
     document.getElementById('player2Cards').innerHTML = player2CardsHtml;
@@ -32,5 +28,8 @@ window.addEventListener('load', (event) => {
 
         })   
     })
+
+    document.querySelectorAll('.card').forEach((card) => {
+        card.addEventListener('click', () => {
 
 });

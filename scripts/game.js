@@ -4,6 +4,7 @@ class TripleTriadGame {
         this.cards = cards;
         this.player1Cards = [];
         this.player2Cards = [];
+        this.gameBoard= [];
     }
 
 
