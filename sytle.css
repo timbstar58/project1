@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    background: url('img/tripletriad-background.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+}
+
+#game-board{
+    border: 1px solid red;
+    width: 60%;
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.box {
+    border: 1px solid #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playerMenu {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    margin: 30px;
+    border: 1px solid blue;
+}
+
+#player1Cards {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    flex-wrap: wrap;
+ }
+    
+#player2Cards{
+    border: 1px solid yellow;
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
+}
+
+
+
+
+.card {
+    transform-style: preserve-3d;
+    border: 1px solid 
+  }
+
+  .card .back,
+  .card .front {
+    width: 70px;
+    height: 71px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 64px;
+    transition: transform 0.6s ease;
+    image
+  } 
+
+/*   
+  #triple-triad-board {
+    background: #dddddd;
+    width: 820px;
+    height: 540px;
+    padding: 70px;
+    margin: 0px auto;
+    border-radius: 84px;
+    box-shadow: inset 0px 0px 20px -6px #615961;
+  } */
+
+
+  
+  
+  /* .card.turned {
+    pointer-events: none;
+  }
+  
+  .card.turned .front {
+    transform: rotateY(0deg);
+  }
+  .card.turned .back {
+    transform: rotateY(180deg);
+  }
+  
+ .card .back,
+  .card .front {
+    width: 71px;
+    height: 71px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 64px;
+    transition: transform 0.6s ease;
+  } 
+  
+  .card .back {
+    background-color: #456783;
+  }
+  
+  .card .front {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotateY(-180deg) translateZ(1px);
+    backface-visibility: hidden;
+  }
+   */
+
+  
+  /* h1 {
+    color: rgba(215, 40, 40, 0.9);
+    font-weight: bolder;
+    font-size: 67px;
+    text-align: center;
+    text-shadow: 0px 0px 20px #969696;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #456783;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 1px red;
+  }
+  
+  p {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+  }
+   */

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Triple Triad</title>
+    <link rel="stylesheet" href="sytle.css">
+    <!-- LINK THE STYLES HERE -->
+  </head>
+  <body>
+    <div class="playerMenu">
+        <h2>Red Cards</h2>
+        <div id="player1Cards">
+        <!--<div class="card" data-card-name="${pic.name}">
+            <div class="back" name="${pic.img}"></div>
+            <div class="front" style="background: url(img/${pic.img}) no-repeat"></div>
+            </div> 
+        -->
+        </div>
+    </div>  
+
+    <div id="game-board">
+        <div class="card box field-one-one">field-one-one</div>
+        <div class="card box field-one-two">field-one-two</div>
+        <div class="card box field-one-three">field-one-three</div>
+        <div class="card box field-two-one">field-two-one</div>
+        <div class="card box field-two-two">field-two-two</div>
+        <div class="card box field-two-three">field-two-three</div>
+        <div class="card box field-three-one">field-three-one</div>
+        <div class="card box field-three-two">field-three-two</div>
+        <div class="card box field-three-three">field-three-three</div>
+    </div>
+    <div class="playerMenu">
+        <h2>Blue Cards</h2>
+        <div id="player2Cards">
+        <!--<div class="card" data-card-name="${pic.name}">
+                    <div class="back" name="${pic.img}"></div>
+                    <div class="front" style="background: url(img/${pic.img}) no-repeat"></div>
+            </div> 
+        -->
+        </div>
+    </div>  
+    <!-- LINK THE JAVASCRIPT FILES HERE (keep in mind that the order in which you link them MATTERS) -->
+    <script src="scripts/cards.js"></script>
+    <script src="scripts/game.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
