@@ -4,9 +4,6 @@ const triadGame = new TripleTriadGame(cards)
 window.addEventListener('load', (event) => {
     let player1CardsHtml  = '';
     let player2CardsHtml  = '';
-    // console.log(document.getElementById('player1Cards'))
-    // console.log(document.getElementById('player2Cards'))
-    console.log(triadGame.pickedCard[0])
 
     triadGame.cards.forEach((pic) => {
         
@@ -21,32 +18,52 @@ window.addEventListener('load', (event) => {
     document.getElementById('player1Cards').innerHTML = player1CardsHtml;
     document.getElementById('player2Cards').innerHTML = player2CardsHtml;
 
-
-    document.querySelectorAll('.card').forEach((card) => {
-        card.addEventListener('click', () => {
-            if( triadGame.pickedCard.length === 0){
-            triadGame.pickedCard.push(card)
-            }
-            console.log(triadGame.pickedCard[0])
-        })   
-    })
+    // Player RED
+        let turnCounter = 0
+        console.log(turnCounter)
+        document.querySelectorAll('.frontRed').forEach((card) => {
+            card.addEventListener('click', () => {
+                if( turnCounter %2 === 0){
+                triadGame.pickedCardRed.push(card)
+                }
+            })   
+        })
     
-    document.getElementById('game-board').addEventListener('click', (arr) => {
-        console.log(triadGame.pickedCard[0])
-        console.log(arr.path[0])
-        console.log(arr.path[0]) 
-        if( triadGame.pickedCard.length === 1){
-            arr.path[0].appendChild(triadGame.pickedCard[0]) 
-            arr.path[0].querySelector('.frontRed').classList.remove('card')
-            arr.path[0].querySelector('.frontRed').classList.add('on-board-cards')
-            // arr.path[0].querySelector('.frontGreen').classList.remove('card')
-            // arr.path[0].querySelector('.frontGreen').classList.add('on-board-cards')
-            triadGame.pickedCard.pop();
-            console.log(triadGame.pickedCard[0])
-        }
-    })
+        document.getElementById('game-board').addEventListener('click', (arr) => {
+            if( triadGame.pickedCardRed.length > 0 && turnCounter %2 === 0){
+                arr.path[0].appendChild(triadGame.pickedCardRed[triadGame.pickedCardRed.length -1]) 
+                arr.path[0].querySelector('.frontRed').classList.remove('card')
+                arr.path[0].querySelector('.frontRed').classList.add('on-board-cards')
+                triadGame.pickedCardRed.length = 0;
+                turnCounter++;
+                console.log(turnCounter)
+            }
+            else return false
+        })
 
-
-   
+        // Player BLUE
+        document.querySelectorAll('.frontGreen').forEach((card) => {
+            card.addEventListener('click', () => {
+                if( turnCounter %2 !== 0){
+                triadGame.pickedCardBlue.push(card)
+                }
+            })   
+        })
+        
+        document.getElementById('game-board').addEventListener('click', (arr) => {
+            console.log('string.length'+ triadGame.pickedCardBlue.length)
+            console.log('turned counter' + turnCounter)
+            if( triadGame.pickedCardBlue.length > 0 && turnCounter %2 !== 0){
+                
+                arr.path[0].appendChild(triadGame.pickedCardBlue[triadGame.pickedCardBlue.length -1]) 
+                arr.path[0].querySelector('.frontGreen').classList.remove('card')
+                arr.path[0].querySelector('.frontGreen').classList.add('on-board-cards')
+                triadGame.pickedCardBlue.length = 0;
+                turnCounter++;
+                console.log(turnCounter)
+            }
+            else return false
+        })
+    
 
 });
