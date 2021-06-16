@@ -67,11 +67,11 @@ class TripleTriadGame {
                     if(document.querySelector('.field-one-two .on-board-cards').dataset.attackright > document.querySelector('.field-one-three .on-board-cards').dataset.attackleft){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-two-two .on-board-cards') !== null){
+                if(document.querySelector('.field-two-two .on-board-cards') !== null){
                     if(document.querySelector('.field-one-two .on-board-cards').dataset.attackbottom > document.querySelector('.field-two-two .on-board-cards').dataset.attacktop){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-one-one .on-board-cards') !== null){
+                if(document.querySelector('.field-one-one .on-board-cards') !== null){
                     if(document.querySelector('.field-one-two .on-board-cards').dataset.attackleft > document.querySelector('.field-one-one .on-board-cards').dataset.attackright){console.log('flippy flappy')
                     }
                 }
@@ -86,7 +86,7 @@ class TripleTriadGame {
                     if(document.querySelector('.field-one-three .on-board-cards').dataset.attackbottom > document.querySelector('.field-two-three .on-board-cards').dataset.attacktop){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-one-two .on-board-cards') !== null){
+                if(document.querySelector('.field-one-two .on-board-cards') !== null){
                     if(document.querySelector('.field-one-three .on-board-cards').dataset.attackleft > document.querySelector('.field-one-two .on-board-cards').dataset.attackright){console.log('flippy flappy')
                     }
                 }
@@ -98,11 +98,11 @@ class TripleTriadGame {
                     if(document.querySelector('.field-two-one .on-board-cards').dataset.attackright > document.querySelector('.field-two-two .on-board-cards').dataset.attackleft){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-one-one .on-board-cards')!== null){
+                if(document.querySelector('.field-one-one .on-board-cards')!== null){
                     if(document.querySelector('.field-two-one .on-board-cards').dataset.attacktop > document.querySelector('.field-one-one .on-board-cards').dataset.attackbottom){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-three-one .on-board-cards')!== null){
+                if(document.querySelector('.field-three-one .on-board-cards')!== null){
                     if(document.querySelector('.field-two-one .on-board-cards').dataset.attackbottom > document.querySelector('.field-three-one .on-board-cards').dataset.attacktop){console.log('flippy flappy')
                     }
                 }
@@ -114,15 +114,15 @@ class TripleTriadGame {
                     if(document.querySelector('.field-two-two .on-board-cards').dataset.attackright > document.querySelector('.field-two-three .on-board-cards').dataset.attackleft){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-one-two .on-board-cards')!== null){
+                if(document.querySelector('.field-one-two .on-board-cards')!== null){
                     if(document.querySelector('.field-two-two .on-board-cards').dataset.attacktop > document.querySelector('.field-one-two .on-board-cards').dataset.attackbottom){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-three-two .on-board-cards')!== null){
+                if(document.querySelector('.field-three-two .on-board-cards')!== null){
                     if(document.querySelector('.field-two-two .on-board-cards').dataset.attackbottom > document.querySelector('.field-three-two .on-board-cards').dataset.attacktop){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-two-one .on-board-cards')!== null){
+                if(document.querySelector('.field-two-one .on-board-cards')!== null){
                     if(document.querySelector('.field-two-two .on-board-cards').dataset.attackleft > document.querySelector('.field-two-one .on-board-cards').dataset.attackright){console.log('flippy flappy')
                     }
                 }
@@ -134,11 +134,11 @@ class TripleTriadGame {
                     if(document.querySelector('.field-two-three .on-board-cards').dataset.attackleft > document.querySelector('.field-two-two .on-board-cards').dataset.attackright){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-one-three .on-board-cards')!== null){
+                if(document.querySelector('.field-one-three .on-board-cards')!== null){
                     if(document.querySelector('.field-two-three .on-board-cards').dataset.attacktop > document.querySelector('.field-one-three .on-board-cards').dataset.attackbottom){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-three-three .on-board-cards')!== null){
+                if(document.querySelector('.field-three-three .on-board-cards')!== null){
                     if(document.querySelector('.field-two-three .on-board-cards').dataset.attackbottom > document.querySelector('.field-three-three .on-board-cards').dataset.attacktop){console.log('flippy flappy')
                     }
                 }
@@ -151,7 +151,7 @@ class TripleTriadGame {
                     if(document.querySelector('.field-three-one .on-board-cards').dataset.attackright > document.querySelector('.field-three-two .on-board-cards').dataset.attackleft){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-two-one .on-board-cards')!== null){
+                if(document.querySelector('.field-two-one .on-board-cards')!== null){
                     if(document.querySelector('.field-three-one .on-board-cards').dataset.attacktop > document.querySelector('.field-two-one .on-board-cards').dataset.attackbottom){console.log('flippy flappy')
                     }
                 }
@@ -163,11 +163,11 @@ class TripleTriadGame {
                     if (document.querySelector('.field-three-two .on-board-cards').dataset.attackleft > document.querySelector('.field-three-one .on-board-cards').dataset.attackright){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-two-two .on-board-cards')!== null){
+                if(document.querySelector('.field-two-two .on-board-cards')!== null){
                     if(document.querySelector('.field-three-two .on-board-cards').dataset.attacktop > document.querySelector('.field-two-two .on-board-cards').dataset.attackbottom){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-three-three .on-board-cards')!== null){
+                if(document.querySelector('.field-three-three .on-board-cards')!== null){
                     if(document.querySelector('.field-three-two .on-board-cards').dataset.attackright > document.querySelector('.field-three-three .on-board-cards').dataset.attackleft){console.log('flippy flappy')
                     }
                 }
@@ -179,7 +179,7 @@ class TripleTriadGame {
                     if(document.querySelector('.field-three-three .on-board-cards').dataset.attackleft > document.querySelector('.field-three-two .on-board-cards').dataset.attackright){console.log('flippy flappy')
                     }
                 }
-                else if(document.querySelector('.field-two-three .on-board-cards')!== null){
+                if(document.querySelector('.field-two-three .on-board-cards')!== null){
                     if(document.querySelector('.field-three-three .on-board-cards').dataset.attacktop > document.querySelector('.field-two-three .on-board-cards').dataset.attackbottom){console.log('flippy flappy')
                     }
                 }
