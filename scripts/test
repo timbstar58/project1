@@ -1,0 +1,303 @@
+console.log(arg.path[0].classList.value)
+        switch (arg) {
+           
+
+        case (arg.path[0].classList.value.includes('field-one-one') === true):
+            console.log('field-one-one')
+            // if (document.querySelector('.field-one-one .on-board-cards').dataset.attackbottom > (document.querySelector('.field-two-one .on-board-cards').dataset.attacktop || 0)){ console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-one-one .on-board-cards').dataset.attackright > (document.querySelector('.field-one-two .on-board-cards').dataset.attackleft || undefined)){console.log('flippy flappy')
+            // }
+            break;
+     
+        case (arg.path[0].classList.value.includes('field-one-two') === true):
+            console.log('field-one-two')
+            // if (document.querySelector('.field-one-two .on-board-cards').dataset.attackright > (document.querySelector('.field-one-three .on-board-cards').dataset.attackleft || undefined)){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-one-two .on-board-cards').dataset.attackbottom > (document.querySelector('.field-two-two .on-board-cards').dataset.attacktop || undefined)){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-one-two .on-board-cards').dataset.attackleft > (document.querySelector('.field-one-one .on-board-cards').dataset.attackright || undefined)){console.log('flippy flappy')
+            // }
+            break;
+        
+
+        case (arg.path[0].classList.value.includes('field-one-three') === true):
+            console.log('field-one-three')
+            // if (document.querySelector('.field-one-three .on-board-cards').dataset.attackbottom > (document.querySelector('.field-two-three .on-board-cards').dataset.attacktop|| undefined)){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-one-three .on-board-cards').dataset.attackleft > (document.querySelector('.field-one-three .on-board-cards').dataset.attackright || undefined)){console.log('flippy flappy')
+            // }
+            break;
+
+        case (arg.path[0].classList.value.includes('field-two-one')=== true) :
+            console.log('field-two-one')
+            // if (document.querySelector('.field-two-one .on-board-cards').dataset.attackright > (document.querySelector('.field-two-two .on-board-cards').dataset.attackleft|| undefined )){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-two-one .on-board-cards').dataset.attacktop > (document.querySelector('.field-one-one .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-two-one .on-board-cards').dataset.attackbottom > (document.querySelector('.field-three-one .on-board-cards').dataset.attacktop || undefined)){console.log('flippy flappy')
+            // }
+            break;
+
+        case arg.path[0].classList.value.includes('field-two-two') === true :
+            console.log('field-two-two')
+            // if (document.querySelector('.field-two-two .on-board-cards').dataset.attackright > (document.querySelector('.field-two-three .on-board-cards').dataset.attackleft|| undefined )){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-two-two .on-board-cards').dataset.attacktop > (document.querySelector('.field-one-two .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-two-two .on-board-cards').dataset.attackbottom > (document.querySelector('.field-three-two .on-board-cards').dataset.attacktop || undefined)){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-two-two .on-board-cards').dataset.attackleft > (document.querySelector('.field-two-one .on-board-cards').dataset.attackright || undefined)){console.log('flippy flappy')
+            // }
+            break
+
+        case arg.path[0].classList.value.includes('field-two-three')  :
+            console.log('field-two-three')
+            // if(document.querySelector('.field-two-two .on-board-cards') === true){
+            //     if (document.querySelector('.field-two-three .on-board-cards').dataset.attackleft > (document.querySelector('.field-two-two .on-board-cards').dataset.attackright|| undefined )){console.log('flippy flappy')
+            //     }
+            // }
+            // else if (document.querySelector('.field-two-three .on-board-cards').dataset.attacktop > (document.querySelector('.field-one-three .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-two-three .on-board-cards').dataset.attackbottom > (document.querySelector('.field-three-three .on-board-cards').dataset.attacktop || undefined)){console.log('flippy flappy')
+            // }
+            break;
+        
+
+        case arg.path[0].classList.value.includes('field-three-one')  :
+            console.log('field-three-one')
+            // if (document.querySelector('.field-three-one .on-board-cards').dataset.attackright > (document.querySelector('.field-three-two .on-board-cards').dataset.attackleft|| undefined )){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-three-one .on-board-cards').dataset.attacktop > (document.querySelector('.field-two-one .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            // }
+            break;
+
+        case arg.path[0].classList.value.includes('field-three-two') :
+            console.log('field-three-two')
+            // if (document.querySelector('.field-three-two .on-board-cards').dataset.attackleft > (document.querySelector('.field-three-one .on-board-cards').dataset.attackright|| undefined )){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-three-two .on-board-cards').dataset.attacktop > (document.querySelector('.field-two-two .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-three-two .on-board-cards').dataset.attackright > (document.querySelector('.field-three-three .on-board-cards').dataset.attackleft || undefined)){console.log('flippy flappy')
+            // }
+            break
+
+        case arg.path[0].classList.value.includes('field-three-three')  :
+            // console.log('field-three-three')
+            // if (document.querySelector('.field-three-three .on-board-cards').dataset.attackleft > (document.querySelector('.field-three-two .on-board-cards').dataset.attackright|| undefined )){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-three-three .on-board-cards').dataset.attacktop > (document.querySelector('.field-two-three .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            // }
+            break
+        }
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+        if(arg.path[0].classList.value.includes('field-one-one') === true ){
+            console.log('field-one-one')
+            if (document.querySelector('.field-one-one .on-board-cards').dataset.attackbottom > (document.querySelector('.field-two-one .on-board-cards').dataset.attacktop || 0)){ console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-one-one .on-board-cards').dataset.attackright > (document.querySelector('.field-one-two .on-board-cards').dataset.attackleft || undefined)){console.log('flippy flappy')
+            }
+        }
+     
+        else if (arg.path[0].classList.value.includes('field-one-two') === true ){
+            console.log('field-one-two')
+            if (document.querySelector('.field-one-two .on-board-cards').dataset.attackright > (document.querySelector('.field-one-three .on-board-cards').dataset.attackleft || undefined)){console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-one-two .on-board-cards').dataset.attackbottom > (document.querySelector('.field-two-two .on-board-cards').dataset.attacktop || undefined)){console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-one-two .on-board-cards').dataset.attackleft > (document.querySelector('.field-one-one .on-board-cards').dataset.attackright || undefined)){console.log('flippy flappy')
+            }
+        }
+
+        else if (arg.path[0].classList.value.includes('field-one-three') === true ){
+            console.log('field-one-three')
+            if (document.querySelector('.field-one-three .on-board-cards').dataset.attackbottom > (document.querySelector('.field-two-three .on-board-cards').dataset.attacktop|| undefined)){console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-one-three .on-board-cards').dataset.attackleft > (document.querySelector('.field-one-three .on-board-cards').dataset.attackright || undefined)){console.log('flippy flappy')
+            }
+        }
+
+        else if (arg.path[0].classList.value.includes('field-two-one') === true ){
+            console.log('field-two-one')
+            if (document.querySelector('.field-two-one .on-board-cards').dataset.attackright > (document.querySelector('.field-two-two .on-board-cards').dataset.attackleft|| undefined )){console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-two-one .on-board-cards').dataset.attacktop > (document.querySelector('.field-one-one .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-two-one .on-board-cards').dataset.attackbottom > (document.querySelector('.field-three-one .on-board-cards').dataset.attacktop || undefined)){console.log('flippy flappy')
+            }
+        }
+
+        else if (arg.path[0].classList.value.includes('field-two-two') === true ){
+            console.log('field-two-two')
+            if (document.querySelector('.field-two-two .on-board-cards').dataset.attackright > (document.querySelector('.field-two-three .on-board-cards').dataset.attackleft|| undefined )){console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-two-two .on-board-cards').dataset.attacktop > (document.querySelector('.field-one-two .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-two-two .on-board-cards').dataset.attackbottom > (document.querySelector('.field-three-two .on-board-cards').dataset.attacktop || undefined)){console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-two-two .on-board-cards').dataset.attackleft > (document.querySelector('.field-two-one .on-board-cards').dataset.attackright || undefined)){console.log('flippy flappy')
+            }
+        }
+
+        else if (arg.path[0].classList.value.includes('field-two-three') === true ){
+            console.log('field-two-three')
+            if(document.querySelector('.field-two-two .on-board-cards') === true){
+                if (document.querySelector('.field-two-three .on-board-cards').dataset.attackleft > (document.querySelector('.field-two-two .on-board-cards').dataset.attackright|| undefined )){console.log('flippy flappy')
+                }
+            }
+            else if (document.querySelector('.field-two-three .on-board-cards').dataset.attacktop > (document.querySelector('.field-one-three .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-two-three .on-board-cards').dataset.attackbottom > (document.querySelector('.field-three-three .on-board-cards').dataset.attacktop || undefined)){console.log('flippy flappy')
+            }
+        }
+
+        else if (arg.path[0].classList.value.includes('field-three-one') === true ){
+            console.log('field-three-one')
+            if (document.querySelector('.field-three-one .on-board-cards').dataset.attackright > (document.querySelector('.field-three-two .on-board-cards').dataset.attackleft|| undefined )){console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-three-one .on-board-cards').dataset.attacktop > (document.querySelector('.field-two-one .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            }
+        }
+
+        else if (arg.path[0].classList.value.includes('field-three-two') === true ){
+            console.log('field-three-two')
+            if (document.querySelector('.field-three-two .on-board-cards').dataset.attackleft > (document.querySelector('.field-three-one .on-board-cards').dataset.attackright|| undefined )){console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-three-two .on-board-cards').dataset.attacktop > (document.querySelector('.field-two-two .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-three-two .on-board-cards').dataset.attackright > (document.querySelector('.field-three-three .on-board-cards').dataset.attackleft || undefined)){console.log('flippy flappy')
+            }
+        }
+
+        else if (arg.path[0].classList.value.includes('field-three-three') === true ){
+            console.log('field-three-three')
+            if (document.querySelector('.field-three-three .on-board-cards').dataset.attackleft > (document.querySelector('.field-three-two .on-board-cards').dataset.attackright|| undefined )){console.log('flippy flappy')
+            }
+            else if (document.querySelector('.field-three-three .on-board-cards').dataset.attacktop > (document.querySelector('.field-two-three .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            }
+        }
+
+
+        ///////////////////
+
+        switch (arg.path[0].classList.value) {
+           
+
+        case 'box field-one-one':
+            console.log('field-one-one')
+            console.log(document.querySelector('.field-two-one .on-board-cards'))
+            console.log(document.querySelector('.field-one-two .on-board-cards'))
+
+            if(document.querySelector('.field-two-one .on-board-cards') !== null){
+                if (document.querySelector('.field-one-one .on-board-cards').dataset.attackbottom > document.querySelector('.field-two-one .on-board-cards').dataset.attacktop ){ console.log('flippy flappy')
+                }
+            }
+            else if(document.querySelector('.field-one-two .on-board-cards') !== null){
+                if (document.querySelector('.field-one-one .on-board-cards').dataset.attackright > document.querySelector('.field-one-two .on-board-cards').dataset.attackleft ){console.log('flippy flappy')
+                }
+            }
+            break;
+     
+        case 'box field-one-two':
+            console.log('field-one-two')
+            console.log(document.querySelector('.field-one-three .on-board-cards'))
+            console.log(document.querySelector('.field-two-two .on-board-cards'))
+            console.log(document.querySelector('.field-one-one .on-board-cards'))
+
+            if(document.querySelector('.field-one-three .on-board-cards') !== null){
+                if(document.querySelector('.field-one-two .on-board-cards').dataset.attackright > (document.querySelector('.field-one-three .on-board-cards').dataset.attackleft || undefined)){console.log('flippy flappy')
+                }
+            }
+            else if(document.querySelector('.field-two-two .on-board-cards') !== null){
+                if(document.querySelector('.field-one-two .on-board-cards').dataset.attackbottom > (document.querySelector('.field-two-two .on-board-cards').dataset.attacktop || undefined)){console.log('flippy flappy')
+                }
+            }
+            else if(document.querySelector('.field-one-one .on-board-cards') !== null){
+                if(document.querySelector('.field-one-two .on-board-cards').dataset.attackleft > (document.querySelector('.field-one-one .on-board-cards').dataset.attackright || undefined)){console.log('flippy flappy')
+                }
+            }
+            break;
+        
+
+        case 'box field-one-three':
+            console.log('field-one-three')
+            console.log(document.querySelector('.field-two-three .on-board-cards'))
+            console.log(document.querySelector('.field-one-three .on-board-cards'))
+
+            if(document.querySelector('.field-two-three .on-board-cards') !== null){
+                if(document.querySelector('.field-one-three .on-board-cards').dataset.attackbottom > (document.querySelector('.field-two-three .on-board-cards').dataset.attacktop|| undefined)){console.log('flippy flappy')
+                }
+            }
+            else if(document.querySelector('.field-one-three .on-board-cards') !== null){
+                if (document.querySelector('.field-one-three .on-board-cards').dataset.attackleft > (document.querySelector('.field-one-three .on-board-cards').dataset.attackright || undefined)){console.log('flippy flappy')
+                }
+            }
+            break;
+
+        case 'box field-two-one' :
+            console.log('field-two-one')
+            // if (document.querySelector('.field-two-one .on-board-cards').dataset.attackright > (document.querySelector('.field-two-two .on-board-cards').dataset.attackleft|| undefined )){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-two-one .on-board-cards').dataset.attacktop > (document.querySelector('.field-one-one .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-two-one .on-board-cards').dataset.attackbottom > (document.querySelector('.field-three-one .on-board-cards').dataset.attacktop || undefined)){console.log('flippy flappy')
+            // }
+            break;
+
+        case 'box field-two-two':
+            console.log('field-two-two')
+            // if (document.querySelector('.field-two-two .on-board-cards').dataset.attackright > (document.querySelector('.field-two-three .on-board-cards').dataset.attackleft|| undefined )){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-two-two .on-board-cards').dataset.attacktop > (document.querySelector('.field-one-two .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-two-two .on-board-cards').dataset.attackbottom > (document.querySelector('.field-three-two .on-board-cards').dataset.attacktop || undefined)){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-two-two .on-board-cards').dataset.attackleft > (document.querySelector('.field-two-one .on-board-cards').dataset.attackright || undefined)){console.log('flippy flappy')
+            // }
+            break
+
+        case 'box field-two-three':
+            console.log('field-two-three')
+            // if(document.querySelector('.field-two-two .on-board-cards') === true){
+            //     if (document.querySelector('.field-two-three .on-board-cards').dataset.attackleft > (document.querySelector('.field-two-two .on-board-cards').dataset.attackright|| undefined )){console.log('flippy flappy')
+            //     }
+            // }
+            // else if (document.querySelector('.field-two-three .on-board-cards').dataset.attacktop > (document.querySelector('.field-one-three .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-two-three .on-board-cards').dataset.attackbottom > (document.querySelector('.field-three-three .on-board-cards').dataset.attacktop || undefined)){console.log('flippy flappy')
+            // }
+            break;
+        
+
+        case 'box field-three-one':
+            console.log('field-three-one')
+            // if (document.querySelector('.field-three-one .on-board-cards').dataset.attackright > (document.querySelector('.field-three-two .on-board-cards').dataset.attackleft|| undefined )){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-three-one .on-board-cards').dataset.attacktop > (document.querySelector('.field-two-one .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            // }
+            break;
+
+        case 'box field-three-two':
+            console.log('field-three-two')
+            // if (document.querySelector('.field-three-two .on-board-cards').dataset.attackleft > (document.querySelector('.field-three-one .on-board-cards').dataset.attackright|| undefined )){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-three-two .on-board-cards').dataset.attacktop > (document.querySelector('.field-two-two .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-three-two .on-board-cards').dataset.attackright > (document.querySelector('.field-three-three .on-board-cards').dataset.attackleft || undefined)){console.log('flippy flappy')
+            // }
+            break
+
+        case 'box field-three-three':
+            // console.log('field-three-three')
+            // if (document.querySelector('.field-three-three .on-board-cards').dataset.attackleft > (document.querySelector('.field-three-two .on-board-cards').dataset.attackright|| undefined )){console.log('flippy flappy')
+            // }
+            // else if (document.querySelector('.field-three-three .on-board-cards').dataset.attacktop > (document.querySelector('.field-two-three .on-board-cards').dataset.attackbottom || undefined)){console.log('flippy flappy')
+            // }
+            break
+        }
