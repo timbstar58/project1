@@ -1,11 +1,14 @@
 const triadGame = new TripleTriadGame(cards)
-
+let audio = document.getElementById('audio')
+// audio.play()
 
 window.addEventListener('load', (event) => {
     let playerGreenHtml  = '';
     let playerRedHtml  = '';
 
     triadGame.cards.forEach((pic) => {
+
+
         
         playerGreenHtml += `
             <div class="card frontGreen" style="background-image: url(img/${pic.img})" 
@@ -50,6 +53,7 @@ window.addEventListener('load', (event) => {
                 triadGame.pickedCardRed.length = 0;
                 turnCounter++;
                 triadGame.checkIfStronger(arr);
+                triadGame.checkIfFinished(turnCounter)
             }
             else return false
         })
@@ -71,6 +75,7 @@ window.addEventListener('load', (event) => {
                 triadGame.pickedCardGreen.length = 0;
                 turnCounter++;
                 triadGame.checkIfStronger(arr);
+                triadGame.checkIfFinished(turnCounter)
             }
             else return false
         })

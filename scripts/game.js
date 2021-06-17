@@ -544,7 +544,14 @@ class TripleTriadGame {
 
     }
 
-    checkIfFinished() {
-       
+    checkIfFinished(arg) {
+        console.log('Red'+ document.querySelectorAll('.frontRed').length)
+        console.log('Green'+ document.querySelectorAll('.frontGreen').length)
+        setTimeout(() => { 
+            if (arg === 9 && (document.querySelectorAll('.frontRed').length > document.querySelectorAll('.frontGreen').length)){
+             alert('PlayerRed wins! to play again refresh the website')}
+            if (arg === 9 && (document.querySelectorAll('.frontGreen').length > document.querySelectorAll('.frontRed').length)){
+             alert('PlayerGreen wins! to play again refresh the website')}
+        }, 1500); 
     }
 }
