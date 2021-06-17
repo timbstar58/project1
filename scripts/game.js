@@ -8,11 +8,11 @@ class TripleTriadGame {
         this.pickedCardRed=[]
     }
 
-    playAudio(){
-            let music = new Audio('/audio/CoffeeBlack.ogg');
-            music.play().loop;
+    // playAudio(){
+    //         let music = new Audio('/audio/CoffeeBlack.ogg');
+    //         music.play().loop;
  
-    }
+    // }
 
     checkIfStronger(arg) {
         switch (arg.path[0].classList.value) {
