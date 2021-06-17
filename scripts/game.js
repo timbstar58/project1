@@ -9,11 +9,9 @@ class TripleTriadGame {
     }
 
     playAudio(){
-        // document.querySelector('.sound').addEventListener('click', () => {
-            var music = new Audio('../audio/CoffeeBlack.ogg');
+            let music = new Audio('../audio/CoffeeBlack.ogg');
             music.play().loop;
-        // })
-            
+ 
     }
 
     checkIfStronger(arg) {
