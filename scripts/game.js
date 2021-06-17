@@ -9,7 +9,7 @@ class TripleTriadGame {
     }
 
     playAudio(){
-            let music = new Audio('../audio/CoffeeBlack.ogg');
+            let music = new Audio('/audio/CoffeeBlack.ogg');
             music.play().loop;
  
     }
