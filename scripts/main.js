@@ -5,7 +5,7 @@ window.addEventListener('load', (event) => {
     let playerGreenHtml  = '';
     let playerRedHtml  = '';
     triadGame.cards.forEach((pic) => {
-
+console.log(pic)
         playerGreenHtml += `
             <div class="card frontGreen" style="background-image: url(img/${pic.img})" 
                 data-attackTop = "${pic.topAtk}"
